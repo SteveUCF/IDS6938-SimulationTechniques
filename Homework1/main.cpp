@@ -13,7 +13,7 @@ Compute the dy/dx
 */
 double df(double x, double y)            //function for defining dy/dx
 {
-    return y - (1 / 2)*exp(x / 2)*sin(5 * x) + 5 * exp(x / 2)*cos(5 * x);
+    return y - (.5)*exp(x / 2)*sin(5 * x) + 5 * exp(x / 2)*cos(5 * x);
 }
 
 
@@ -96,7 +96,7 @@ int main()
 	double y_midpoint = 0.0;
 	double y_RK4 = 0.0;
     double x = 0.0;
-    double h = 0.1;
+    double h = 1;
 
 	std::cout << std::fixed << std::showpoint;
     // Header information for column printouts
@@ -108,14 +108,14 @@ int main()
 	//intial values
 	std::cout<< toString(x, y_euler, y_midpoint, y_RK4, exact(x), 10) << std::endl;
 
-    for (int i = 0; i < 50; i++)
+    for (int i = 0; i < 100; i++)
     {
-		y_euler = rk1(y_euler,h,x);  //caculate y_{i+1}
-		y_midpoint = rk2(y_midpoint, h, x);  //caculate y_{i+1}
+		//STEVEy_euler = rk1(y_euler,h,x);  //caculate y_{i+1}
+		//STEVEy_midpoint = rk2(y_midpoint, h, x);  //caculate y_{i+1}
 		y_RK4 = rk4(y_RK4, h, x);  //caculate y_{i+1}
         x = x + h;       //increment x
 
-		std::cout << toString(x, y_euler, y_midpoint, y_RK4, exact(x), 10) << std::endl;
+		std::cout << toString(x, y_euler, y_midpoint, y_RK4, exact(x), 100) << std::endl;
 	}
 
 
