@@ -37,7 +37,19 @@ Plot the results just for RK4 with 3 different n values (with the exact solution
 accuracy. (2) What happens as you increase the x value to the accuracy. (3) How does varying
 the step size effect the accuracy. (4) Which method is the most accurate and why (in particular
 explain what is taken to account in the solution).
-2
+
+
+
+
+
+
+
+
+
+================================================================================================================
+
+
+
 
 This is the framework for homework #1. Please first read the [homework writeup](HomeWork%231.pdf).
 
