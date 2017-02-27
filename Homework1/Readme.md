@@ -7,6 +7,8 @@
 
 (a) - 2pts: Solve for the exact symbolic (analytical) solution.
 
+return y - (1 / 2)*exp(x / 2)*sin(5 * x) + 5 * exp(x / 2)*cos(5 * x);
+
  ![](images/HWPart1.PNG?raw=true) 
 
 [WolframAlphaLink](https://www.wolframalpha.com/input/?i=dy+dx+%3D+y-(1%2F2)*+e+%5E(x%2F+2)+*+sin(5x)+%2B+5e+%5E(x%2F+2)+*+cos(5x))
