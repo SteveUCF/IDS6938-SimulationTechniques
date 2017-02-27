@@ -7,7 +7,7 @@
 
 (a) - 2pts: Solve for the exact symbolic (analytical) solution.
 
-| ![](images/HWPart1.PNG?raw=true) |
+ ![](images/HWPart1.PNG?raw=true) 
 
 [WolframAlphaLink](https://www.wolframalpha.com/input/?i=dy+dx+%3D+y-(1%2F2)*+e+%5E(x%2F+2)+*+sin(5x)+%2B+5e+%5E(x%2F+2)+*+cos(5x))
 
@@ -20,13 +20,13 @@ for each solution.) Graph the results of RK1, RK2, and RK4 and the exact solutio
 approach you like to graph this data: R, Python, Matlab, Excel - you should produce a graph with
 4 curves.)
 
-| ![](images/HW1-1c.PNG?raw=true) |
+ ![](images/HW1-1c.PNG?raw=true) 
 
 (d)- 5pts: Plot the error percentages for RK1, RK2, and RK4 in another graph. Remeber the
 error is defined as : %error = jexact􀀀approxj
 exact .
 
-| ![](images/HW1-1d.PNG?raw=true) |
+ ![](images/HW1-1d.PNG?raw=true) 
 
 (e)- 5pts: Vary the step size h = n where you define three n values for x =< 0.0, 10.0 >.
 Plot the results just for RK4 with 3 different n values (with the exact solution). Plot the error rate.
