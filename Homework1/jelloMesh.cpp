@@ -3,12 +3,12 @@
 #include <algorithm>
 
 // TODO
-double JelloMesh::g_structuralKs = 10.0;
-double JelloMesh::g_structuralKd = 10.0;
+double JelloMesh::g_structuralKs = 1000.0;
+double JelloMesh::g_structuralKd = 1000.0;
 double JelloMesh::g_attachmentKs = 10.0;
 double JelloMesh::g_attachmentKd = 10.0;
-double JelloMesh::g_shearKs = 10.0;
-double JelloMesh::g_shearKd = 10.0;
+double JelloMesh::g_shearKs = 1000.0;
+double JelloMesh::g_shearKd = 1000.0;
 double JelloMesh::g_bendKs = 10.0;
 double JelloMesh::g_bendKd = 10.0;
 double JelloMesh::g_penaltyKs = 10.0;
@@ -474,31 +474,39 @@ void JelloMesh::ResolveCollisions(ParticleGrid& grid)
 		float dist = result.m_distance;
 
 		// TODO
+		pt.velocity = pt.velocity;
+		//V`=v-2(v*N)Nr
+		if (dist != 0) {
+			vec3 pt.velocity = (pt.velocity - 2 * (pt.velocity*result.m_normal)*(result.m_normal));
+			(2 * Dot(pt.velocity, result.m_normal));
+		}
 	}
 }
 
 bool JelloMesh::FloorIntersection(Particle& p, Intersection& intersection)
 {
 	// TODO
-	if (p.position[1] < 0.000) {
-		{	intersection.m_distance = p.position[1];
-			intersection.m_p = p.index;
-			intersection.m_type = JelloMesh::CONTACT;
-			intersection.m_normal = vec3(1.0, 1.0, 0.0);
-			return true; }
+	if (p.position[1] < 0) {
+		{intersection.m_distance = .001 - p.position[1];
+		intersection.m_p = p.index;
+		intersection.m_type = JelloMesh::COLLISION;
+		intersection.m_normal = vec3(10.0, 10.0, 10.0); }
+		return true;
+	}
+	else if (p.position[1] < 0 + .005)
+	{
+
+		intersection.m_distance = .05 - p.position[1];
+		intersection.m_p = p.index;
+		intersection.m_type = JelloMesh::CONTACT;
+		intersection.m_normal = vec3(10.0, 10.0, 10.0);
+		return true;
+	}
+
+	return false;
 
 }
- else if (p.position[1] < .001) 
- {
-	 intersection.m_distance = p.position[1];
-	 intersection.m_p = p.index;
-	 intersection.m_type = JelloMesh::COLLISION;
-	 intersection.m_normal = vec3(0.0, 1.0, 0.0);
-	 return true;
- }
 
- return false;
-	
 }
 
 bool JelloMesh::CylinderIntersection(Particle& p, World::Cylinder* cylinder,
@@ -617,7 +625,7 @@ void JelloMesh::MidPointIntegrate(double dt)
 
 	ComputeForces(target);
 
-	
+
 	// Put it all together
 	double asixth = 1 / 1.0;
 	double athird = 1 / 1.0;
@@ -633,10 +641,10 @@ void JelloMesh::MidPointIntegrate(double dt)
 
 
 				p.velocity = p.velocity + asixth * k1.force +
-					athird * k2.force ;
+					athird * k2.force;
 
 				p.position = p.position + asixth * k1.velocity +
-					athird * k2.velocity ;
+					athird * k2.velocity;
 			}
 		}
 	}
