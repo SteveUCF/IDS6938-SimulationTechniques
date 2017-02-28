@@ -38,6 +38,8 @@ Plot the results just for RK4 with 3 different n values (with the exact solution
 #50
 ![](images/HW1-1e3.PNG?raw=true) 
 
+![](images/HW1-1e3ii.PNG?raw=true)
+
 (f)- 3pts: Analyze you results: (1) Describe how varying the integration method changes the
 accuracy. (2) What happens as you increase the x value to the accuracy. (3) How does varying
 the step size effect the accuracy. (4) Which method is the most accurate and why (in particular
