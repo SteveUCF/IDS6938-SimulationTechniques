@@ -33,8 +33,11 @@ exact .
 (e)- 5pts: Vary the step size h = n where you define three n values for x =< 0.0, 10.0 >.
 Plot the results just for RK4 with 3 different n values (with the exact solution). Plot the error rate.
 
+#10
 ![](images/HW1-1e2.PNG?raw=true) 
+#50
 ![](images/HW1-1e3.PNG?raw=true) 
+
 (f)- 3pts: Analyze you results: (1) Describe how varying the integration method changes the
 accuracy. (2) What happens as you increase the x value to the accuracy. (3) How does varying
 the step size effect the accuracy. (4) Which method is the most accurate and why (in particular
