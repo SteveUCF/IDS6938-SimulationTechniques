@@ -49,7 +49,8 @@ explain what is taken to account in the solution).
 ##Part 2: Programming a Jello Cube
 
 ##Part 3: Written Questions
- What is the effect of the Ks and Kd parameters on the jello? .
+ What is the effect of the Ks and Kd parameters on the jello? 
+##Ks and Kd parameters create the jiggle in the jello after collision.
 
  What are the benefits and the drawbacks of the collision system used here? What are some
 different ways in which it could be improved? 
@@ -57,7 +58,7 @@ different ways in which it could be improved?
 
  What are some example systems you could model with Mass-spring simulations? Explain
 how you would you construct the model. 
-##Mass Spring simulations could help to simulate tires of an airplane hitting the ground and landing. The rotating tires have compression when they hit the ground. Simulation can help understand airpressure, how large/small the tire needs to be, lifetime of the rubber, etc. I would construct the tire with motion and velocity. 
+##Mass Spring simulations could help to simulate tires of an airplane touching the ground on landing. The rotating tires have compression when they hit the ground. Simulation can help understand airpressure, how large/small the tire needs to be, lifetime of the rubber, etc. I would construct the tire with motion and velocity. 
 
  Does the jello behave realistically? What integration method did you choose to make the
 Jello stable? 
