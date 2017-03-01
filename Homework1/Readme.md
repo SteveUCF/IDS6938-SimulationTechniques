@@ -52,16 +52,19 @@ explain what is taken to account in the solution).
  What is the effect of the Ks and Kd parameters on the jello? .
 
  What are the benefits and the drawbacks of the collision system used here? What are some
-different ways in which it could be improved? Add a temperature element-- how hot or cold the temperature is can actually affect the jello cube in real life. Hotter temperature can liquify the jello, colder temperature can impact the consistency and collision. The simulation can take temperature into account.
+different ways in which it could be improved? 
+#Add a temperature element-- how hot or cold the temperature is can actually affect the jello cube in real life. Hotter temperature can liquify the jello, colder temperature can impact the consistency and collision. The simulation can take temperature into account.
 
  What are some example systems you could model with Mass-spring simulations? Explain
-how you would you construct the model. #Mass Spring simulations could help to simulate tires of an airplane hitting the ground and landing. The rotating tires have compression when they hit the ground. Simulation can help understand airpressure, how large/small the tire needs to be, lifetime of the rubber, etc. I would construct the tire with motion and velocity. 
+how you would you construct the model. 
+#Mass Spring simulations could help to simulate tires of an airplane hitting the ground and landing. The rotating tires have compression when they hit the ground. Simulation can help understand airpressure, how large/small the tire needs to be, lifetime of the rubber, etc. I would construct the tire with motion and velocity. 
 
  Does the jello behave realistically? What integration method did you choose to make the
-Jello stable? #Yes, the jello cube behaves realistically. I used RK4.
+Jello stable? 
+#Yes, the jello cube behaves realistically. I used RK4.
 
  How would you model and simulate water (in terms of a continuous simulation)?
-I would use jello spheres. #I would make them relatively very small and adjust the collision so that there would be slight bounciness and this response would act as a way to stick to each other. 
+#I would use jello spheres. #I would make them relatively very small and adjust the collision so that there would be slight bounciness and this response would act as a way to stick to each other. 
 
 ##Part 4: Final Report
 
