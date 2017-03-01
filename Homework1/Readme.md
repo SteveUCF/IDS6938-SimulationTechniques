@@ -65,7 +65,7 @@ Jello stable?
 ##Yes, the jello cube behaves realistically. I used RK4.
 
  How would you model and simulate water (in terms of a continuous simulation)?
-##I would use jello spheres. I would make lots of them and make them relatively very small and adjust the collision so that there would be slight bounciness and this response would act as a way to stick to each other. 
+##I would use jello spheres. I would make lots of them and make them relatively very small. I would adjust the collision so that there would be slight bounciness and this response would act as a way to stick to each other. 
 
 ##Part 4: Final Report
 
