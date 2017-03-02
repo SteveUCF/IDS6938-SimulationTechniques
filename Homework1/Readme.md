@@ -40,10 +40,15 @@ Plot the results just for RK4 with 3 different n values (with the exact solution
 
 ![](images/HW1-1e3ii.PNG?raw=true)
 
-(f)- 3pts: Analyze you results: (1) Describe how varying the integration method changes the
-accuracy. (2) What happens as you increase the x value to the accuracy. (3) How does varying
-the step size effect the accuracy. (4) Which method is the most accurate and why (in particular
-explain what is taken to account in the solution).
+(f)- 3pts: Analyze you results: 
+(1) Describe how varying the integration method changes the accuracy. 
+##By changing the integration method, this allows some integration methods to fit the slope of the exact function. 
+(2) What happens as you increase the x value to the accuracy. 
+##Since the approximations of the integration methods will tend to be inaccurate with higher x values, this will lead to greater error. 
+(3) How does varying the step size effect the accuracy. 
+##Varying the step size allows more refined calculation. The refinement allows more accurate answers to more decimal places. 
+(4) Which method is the most accurate and why (in particular explain what is taken to account in the solutiion.
+##RK4 is by far the most accurate. The error rate is the lowest and fits the Exact function the best.RK4 provides more estimates of the slope and this provides greater accuracy.
 
 
 ##Part 2: Programming a Jello Cube
