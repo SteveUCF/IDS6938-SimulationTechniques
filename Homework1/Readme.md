@@ -69,7 +69,15 @@ Jello stable?
 
 ##Part 4: Final Report
 
+E
+
 [Jones_JelloCube- YOUTUBE VIDEO LINK](https://youtu.be/vr7S7ufglH8)
+
+##Extra Features
+![](images/MightyMouseJelloCube.PNG?raw=true)
+At some point, it would be a nice exercise to implement this 'MightyMouse' storyboard into Jello Cube.
+Mighty Mouse comes to save the day. He grabs the plate and attempts to catch the falling jello cube. But he is coming in way too fast... and as the plate connects with the 'springy' jello, the jello launches off the plate.
+or alternatively- Jello Cube Game: support user generated forces. The user can drag the plate around and attempt to catch the jello. The interaction and angle of the plate along with the spring of the jello can be a fun exercise for catching the jello!
 
 
 
