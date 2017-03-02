@@ -82,9 +82,10 @@ E
 
 ##Extra Features
 ![](images/MightyMouseJelloCube.PNG?raw=true)
-At some point, it would be a nice exercise to implement this 'MightyMouse' storyboard into Jello Cube.
+
+At some point, it would be a nice exercise to implement this ##'MightyMouse' storyboard into Jello Cube.
 Mighty Mouse comes to save the day. He grabs the plate and attempts to catch the falling jello cube. But he is coming in way too fast... and as the plate connects with the 'springy' jello, the jello launches off the plate.
-or alternatively- Jello Cube Game: support user generated forces. The user can drag the plate around and attempt to catch the jello. The interaction and angle of the plate along with the spring of the jello can be a fun exercise for catching the jello!
+Or alternatively- ##Jello Cube Game: support user generated forces. The user can drag the plate around and attempt to catch the jello. The interaction and angle of the plate along with the spring of the jello can be a fun exercise for catching the jello!
 
 
 
@@ -92,19 +93,4 @@ or alternatively- Jello Cube Game: support user generated forces. The user can d
 
 ================================================================================================================
 
-
-
-
-This is the framework for homework #1. Please first read the [homework writeup](HomeWork%231.pdf).
-
-The assignment is due: Monday, February 27 at 11:59PM (EST)
-
-| undeformed jello  | deformed jello |
-| ------------- | ------------- |
-| ![](images/undeformed3.png?raw=true)  | ![](images/deformed3.png?raw=true) |
-
- Markup : 1. A numbered list
-           1. A nested numbered list
-           2. Which is numbered!
-          2. 
 
