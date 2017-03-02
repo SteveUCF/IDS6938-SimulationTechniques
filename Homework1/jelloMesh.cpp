@@ -461,6 +461,7 @@ void JelloMesh::ResolveContacts(ParticleGrid& grid)
 		Particle& p = GetParticle(grid, contact.m_p);
 		vec3 normal = contact.m_normal;
 		// TODO
+		//Jones Notes:  I had difficulty writing code. Essentially 
 	}
 	}
 
@@ -474,6 +475,7 @@ void JelloMesh::ResolveCollisions(ParticleGrid& grid)
 		float dist = result.m_distance;
 
 		// TODO
+		//Jones Notes:  I had difficulty implmenting the code. The below formula helps to for the collision response.
 		////pt.velocity = pt.velocity;
 		//V`=v-2(v*N)Nr
 		//if (dist != 0) {
@@ -486,6 +488,7 @@ void JelloMesh::ResolveCollisions(ParticleGrid& grid)
 bool JelloMesh::FloorIntersection(Particle& p, Intersection& intersection)
 {
 	// TODO
+	//Jones Notes:  I had difficulty implmenting the code. I am attempting to allow the jello cube to fall within a certain threshold in order to determine contact. Then with an epsilon brought in, if the jello cube falls below this point then we can consider a collision into the GROUND.
 	float epsilon = .001;
 	if (p.position[1] < 0.005) {
 		{	intersection.m_distance = p.position[1];
@@ -517,6 +520,7 @@ bool JelloMesh::CylinderIntersection(Particle& p, World::Cylinder* cylinder,
 	double cylinderRadius = cylinder->r;
 
 	// TODO
+	//Jones Notes:  I had difficulty implmenting the code. 
 	return false;
 }
 
