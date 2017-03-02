@@ -15,6 +15,7 @@ return y - (1 / 2)*exp(x / 2)*sin(5 * x) + 5 * exp(x / 2)*cos(5 * x);
 
 (b)- 5pts: After step (a) you have the values for the df and exact functions. Translate the
 mathematical formulas you now have into the df and exact functions.
+ ![](images/HWPart1b.PNG?raw=true) 
 
 (c)- 5pts: Run three numerical integration solutions: RK1, RK2, and RK4 to generate the numerical
 and exact values. To start use h = 0.1, for x =< 0.0, 10.0 >. (Hint: this produces 100 values
