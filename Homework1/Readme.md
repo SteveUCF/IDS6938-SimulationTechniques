@@ -46,7 +46,7 @@ Plot the results just for RK4 with 3 different n values (with the exact solution
 (1) Describe how varying the integration method changes the accuracy. 
 ##By changing the integration method, this allows some integration methods to fit the slope of the exact function. 
 (2) What happens as you increase the x value to the accuracy. 
-##Since the approximations of the integration methods will tend to be inaccurate with higher x values, this will lead to greater error. 
+##Since the approximations of the integration methods will tend to introduce error with higher x values, this will lead to inaccuracies. 
 (3) How does varying the step size effect the accuracy. 
 ##Varying the step size allows more refined calculation. The refinement allows more accurate answers to more decimal places. 
 (4) Which method is the most accurate and why (in particular explain what is taken to account in the solutiion.
