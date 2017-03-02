@@ -84,7 +84,7 @@ E
 ![](images/MightyMouseJelloCube.PNG?raw=true)
 
 ##'MightyMouse' Storyboard:
-At some point, it would be a nice exercise to implement this ##'MightyMouse' storyboard into Jello Cube.
+At some point, it would be a nice exercise to implement this 'MightyMouse' storyboard into Jello Cube.
 Mighty Mouse comes to save the day. He grabs the plate and attempts to catch the falling jello cube. But he is coming in way too fast... and as the plate connects with the 'springy' jello, the jello launches off the plate.
 ##Jello Cube Game:
 Support user generated forces. The user can drag the plate around and attempt to catch the jello. The interaction and angle of the plate along with the spring of the jello can be a fun exercise for catching the jello!
