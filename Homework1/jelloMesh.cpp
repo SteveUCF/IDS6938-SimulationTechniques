@@ -3,16 +3,16 @@
 #include <algorithm>
 
 // TODO
-double JelloMesh::g_structuralKs = 1000.0;
-double JelloMesh::g_structuralKd = 1000.0;
-double JelloMesh::g_attachmentKs = 10.0;
-double JelloMesh::g_attachmentKd = 10.0;
-double JelloMesh::g_shearKs = 1000.0;
-double JelloMesh::g_shearKd = 1000.0;
-double JelloMesh::g_bendKs = 10.0;
-double JelloMesh::g_bendKd = 10.0;
-double JelloMesh::g_penaltyKs = 10.0;
-double JelloMesh::g_penaltyKd = 10.0;
+double JelloMesh::g_structuralKs = 0.9;
+double JelloMesh::g_structuralKd = 0.9;
+double JelloMesh::g_attachmentKs = 0.9;
+double JelloMesh::g_attachmentKd = 0.9;
+double JelloMesh::g_shearKs = 0.9;
+double JelloMesh::g_shearKd = 0.9;
+double JelloMesh::g_bendKs = 0.9;
+double JelloMesh::g_bendKd = 0.9;
+double JelloMesh::g_penaltyKs = 0.9;
+double JelloMesh::g_penaltyKd = 0.9;
 
 JelloMesh::JelloMesh() :
 	m_integrationType(JelloMesh::MIDPOINT), m_drawflags(MESH | STRUCTURAL),
@@ -460,9 +460,9 @@ void JelloMesh::ResolveContacts(ParticleGrid& grid)
 		const Intersection& contact = m_vcontacts[i];
 		Particle& p = GetParticle(grid, contact.m_p);
 		vec3 normal = contact.m_normal;
-
+		// TODO
 	}
-}
+	}
 
 void JelloMesh::ResolveCollisions(ParticleGrid& grid)
 {
@@ -474,38 +474,37 @@ void JelloMesh::ResolveCollisions(ParticleGrid& grid)
 		float dist = result.m_distance;
 
 		// TODO
-		pt.velocity = pt.velocity;
+		////pt.velocity = pt.velocity;
 		//V`=v-2(v*N)Nr
-		if (dist != 0) {
-			vec3 pt.velocity = (pt.velocity - 2 * (pt.velocity*result.m_normal)*(result.m_normal));
-			(2 * Dot(pt.velocity, result.m_normal));
-		}
+		//if (dist != 0) {
+		//vec3 pt.position = (pt.velocity - 2 * (pt.velocity*result.m_normal)*(result.m_normal));
+		//(2 * Dot(pt.position, result.m_normal));
+
 	}
 }
 
 bool JelloMesh::FloorIntersection(Particle& p, Intersection& intersection)
 {
 	// TODO
-	if (p.position[1] < 0) {
-		{intersection.m_distance = .001 - p.position[1];
-		intersection.m_p = p.index;
-		intersection.m_type = JelloMesh::COLLISION;
-		intersection.m_normal = vec3(10.0, 10.0, 10.0); }
-		return true;
-	}
-	else if (p.position[1] < 0 + .005)
-	{
-
-		intersection.m_distance = .05 - p.position[1];
+	float epsilon = .001;
+	if (p.position[1] < 0.005) {
+		{	intersection.m_distance = p.position[1];
 		intersection.m_p = p.index;
 		intersection.m_type = JelloMesh::CONTACT;
-		intersection.m_normal = vec3(10.0, 10.0, 10.0);
+		intersection.m_normal = vec3(0.0, 1.0, 0.0);
+		return true; }
+
+	}
+	else if (p.position[1] < .001+EPSILON)
+	{
+		intersection.m_distance = p.position[1];
+		intersection.m_p = p.index;
+		intersection.m_type = JelloMesh::COLLISION;
+		intersection.m_normal = vec3(0.0, 1.0, 0.0);
 		return true;
 	}
 
 	return false;
-
-}
 
 }
 
@@ -1091,3 +1090,4 @@ bool JelloMesh::FaceMesh::compare(const FaceMesh& one, const FaceMesh& other)
 {
 	return one.distToEye > other.distToEye;
 }
+
