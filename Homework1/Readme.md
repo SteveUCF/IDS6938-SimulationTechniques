@@ -54,31 +54,48 @@ Plot the results just for RK4 with 3 different n values (with the exact solution
 
 
 ##Part 2: Programming a Jello Cube
+##2.1#
+-Implement JelloMesh::EulerIntegration()
+-Implement JelloMesh::MidpointIntegration()
+-Implement JelloMesh::RK4Integration()
+##2.2#
+Particle forces other than gravity. 
+-Implement spring forces in JelloMesh::ComputeForces(ParticleGrid& grid)
+-Find good spring constants
+##2.3# Collision and penetration detection. 
+-Implement JelloMesh::CylinderCollision()
+-Implement JelloMesh::FloorCollision()
+##2.4#Collision and penetration response. 
+Implement JelloMesh::ResolveContacts(ParticleGrid& grid)
+Implement JelloMesh::ResolveCollisions(ParticleGrid& grid)
+##2.5# Extra springs. 
+##2.6# Implementing 2 features on the extra features list. 
+[Jones_JelloCube- YOUTUBE VIDEO LINK](https://youtu.be/vr7S7ufglH8)
 
 ##Part 3: Written Questions
- What is the effect of the Ks and Kd parameters on the jello? 
+##3.1# What is the effect of the Ks and Kd parameters on the jello? 
 ##Ks and Kd parameters create the jiggle in the jello after collision.
 
- What are the benefits and the drawbacks of the collision system used here? What are some
+##3.2# What are the benefits and the drawbacks of the collision system used here? What are some
 different ways in which it could be improved? 
 ##Add a temperature element-- how hot or cold the temperature is can actually affect the jello cube in real life. Hotter temperature can liquify the jello, colder temperature can impact the consistency and collision. The simulation can take temperature into account.
 
- What are some example systems you could model with Mass-spring simulations? Explain
+##3.3# What are some example systems you could model with Mass-spring simulations? Explain
 how you would you construct the model. 
 ##Mass Spring simulations could help to simulate tires of an airplane touching the ground on landing. The rotating tires have compression when they hit the ground. Simulation can help understand airpressure, how large/small the tire needs to be, lifetime of the rubber, etc. I would construct the tire with motion and velocity. 
 
- Does the jello behave realistically? What integration method did you choose to make the
+##3.4# Does the jello behave realistically? What integration method did you choose to make the
 Jello stable? 
 ##Yes, the jello cube behaves realistically. I used RK4.
 
- How would you model and simulate water (in terms of a continuous simulation)?
+##3.5# How would you model and simulate water (in terms of a continuous simulation)?
 ##I would use jello spheres. I would make lots of them and make them relatively very small. I would adjust the collision so that there would be slight bounciness and this response would act as a way to stick to each other. 
 
 ##Part 4: Final Report
 
-E
 
-[Jones_JelloCube- YOUTUBE VIDEO LINK](https://youtu.be/vr7S7ufglH8)
+
+
 
 ##Extra Features
 ![](images/MightyMouseJelloCube.PNG?raw=true)
