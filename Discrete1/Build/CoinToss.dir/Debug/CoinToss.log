@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete1/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Discrete1\Build\CMakeFiles\generate.stamp is up-to-date.
+  coin.cpp
+c:\users\steve-lp\documents\github\ids6938-simulationtechniques\discrete1\coin.cpp(43): error C4716: 'toss': must return a value

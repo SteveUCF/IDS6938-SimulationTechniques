@@ -12,6 +12,9 @@
 //#include <fstream>
 
 
+//std::mt19937_64 rng;
+
+
 std::mt19937_64 rng;
 std::uniform_real_distribution<double> unif;
 

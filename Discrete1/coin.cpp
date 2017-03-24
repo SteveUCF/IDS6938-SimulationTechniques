@@ -39,6 +39,7 @@ int toss()
 	double random_double_value = unif(rng);
 	
 //TODO
+	return 1 ; 
 	
 }
 

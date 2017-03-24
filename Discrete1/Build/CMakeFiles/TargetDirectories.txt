@@ -1,0 +1,5 @@
+C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete1/Build/CMakeFiles/Birthday.dir
+C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete1/Build/CMakeFiles/CoinToss.dir
+C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete1/Build/CMakeFiles/Random.dir
+C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete1/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete1/Build/CMakeFiles/ZERO_CHECK.dir
