@@ -44,14 +44,15 @@ double rk1(double y, double h, double x)
     return y + h * df(x, y);
 }
 
-
 /*
 This implements the Midpoint method equation
 */
 double rk2(double y, double h, double x)
 {
+	double k1 = df(x,y) ;
+	double k+ h/2, y+h/2*k1);
 	// Add midpoint code here !
-    return ;
+    return  y + h * k2;
 }
 
 
@@ -60,8 +61,12 @@ This implements the RK4 method equation
 */
 double rk4(double y, double h, double x)
 {
+	double k1= df(x, y);
+	double k2 =df(x+h/2, y+h/2*k1);
+	double k3 = df(x + h / 2, y + h / 2 * k2);
+	double k4= df(x+h,y+h * k3);
 	// Add RK4 code here!
-    return  ;
+    return y+1/6*h * (k1+ 2k2 + 2k3 + k4) ;
 }
 
 
