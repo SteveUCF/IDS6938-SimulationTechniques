@@ -32,7 +32,12 @@ int main(int argc, char* argv[])
 
    for (int cur_lambda = 3; cur_lambda < 34; cur_lambda++)
    {
-      
+	   MM1_Queue    MYOBJECTNAME;
+	   MYOBJECTNAME.set_file_names("01_log.txt", "01_wait.txt", "01_service.txt");
+	   MYOBJECTNAME.set_lambda(6);   // for this assignment this is set to a variable from the for loop.
+	   MYOBJECTNAME.set_mu(45);
+	   MYOBJECTNAME.initialize();
+	   MYOBJECTNAME.set_seed(1, rd());   // I set the first one to 1 for testing, the others you should use two random seeds (rd(), rd())
 	   //TODO Create MM1_Queue objects to capture the airport senario.
 
 	   //************************************************************
@@ -75,7 +80,11 @@ int main(int argc, char* argv[])
 
    //TODO Output statistics airport senario.
 
-
+   MYOBJECTNAME.output(); cout << "*********" << endl;
+   MYOBJECTNAME_0.output(); cout << "*********" << endl;
+   MYOBJECTNAME_1.output(); cout << "*********" << endl;
+   MYOBJECTNAME_2.output(); cout << "*********" << endl;
+   MYOBJECTNAME_3.output(); cout << "*********" << endl;
 
    //**************************************************************************
 

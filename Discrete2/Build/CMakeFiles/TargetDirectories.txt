@@ -1,0 +1,5 @@
+C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete2/Build/CMakeFiles/Random.dir
+C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete2/Build/CMakeFiles/QuasiRandom-Sobolo.dir
+C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete2/Build/CMakeFiles/DiceRoll.dir
+C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete2/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Steve-LP/Documents/GitHub/IDS6938-SimulationTechniques/Discrete2/Build/CMakeFiles/ZERO_CHECK.dir
