@@ -1,18 +1,7 @@
 ﻿  main.cpp
 c:\users\steve-lp\documents\github\ids6938-simulationtechniques\homework2\queues\mm1_queue.h(154): warning C4129: '%': unrecognized character escape sequence
-C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(84): error C2065: 'MYOBJECTNAME_0': undeclared identifier
-C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(84): error C2228: left of '.output' must have class/struct/union
-  C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(84): note: type is 'unknown-type'
-C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(85): error C2065: 'MYOBJECTNAME_1': undeclared identifier
-C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(85): error C2228: left of '.output' must have class/struct/union
-  C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(85): note: type is 'unknown-type'
-C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(86): error C2065: 'MYOBJECTNAME_2': undeclared identifier
-C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(86): error C2228: left of '.output' must have class/struct/union
-  C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(86): note: type is 'unknown-type'
-C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(87): error C2065: 'MYOBJECTNAME_3': undeclared identifier
-C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(87): error C2228: left of '.output' must have class/struct/union
-  C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(87): note: type is 'unknown-type'
-  mm1_queue.cpp
-c:\users\steve-lp\documents\github\ids6938-simulationtechniques\homework2\queues\mm1_queue.h(154): warning C4129: '%': unrecognized character escape sequence
-C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\mm1_queue.cpp(127): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
+C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(92): error C3867: 'MM1_Queue::process_next_event': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(93): error C3867: 'MM1_Queue::process_next_event': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(94): error C3867: 'MM1_Queue::process_next_event': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(95): error C3867: 'MM1_Queue::process_next_event': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Steve-LP\Documents\GitHub\IDS6938-SimulationTechniques\Homework2\queues\main.cpp(96): error C3867: 'MM1_Queue::process_next_event': non-standard syntax; use '&' to create a pointer to member
