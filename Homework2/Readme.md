@@ -36,6 +36,9 @@ We looked at different ways to generate [pseudo-random numbers](https://en.wikip
 
 ![](images/1a.PNG?raw=true) 
 
+![](images/CHISQ_mt19937_64-100000PNG.PNG?raw=true) 
+
+
 Generate useful charts and statistics from the output to analyze how uniform these values truly are. You are expected to look at some advanced statistics and test, for example: tests like the Kolmogorov-Smirnov test, Chi-square test, Autocorrelation test, and Spearman’s Rank Correlation Coefficient are a few examples of ones your could use.)
 * **(b) - 2pts:**  Vary *N* (amount of samples). How do things change.
 * **(c) - 3pts:** Fix a random engine of your choice from part (a), and now vary five different [distributions](http://www.cplusplus.com/reference/random/) for just the psedo-random numbers. Again, analyze your results with graphs and statistics of choice.
