@@ -57,6 +57,8 @@ Generate useful charts and statistics from the output to analyze how uniform the
 
 
 * **(f)- 4pts:** Repeat parts (d) and (e) with a unit circle.
+![](images/UnitCircle.PNG?raw=true) 
+http://stackoverflow.com/questions/1621831/how-can-i-convert-coordinates-on-a-square-to-coordinates-on-a-circle
 
 ## Part 2 - Snakes and Ladders (Discrete Event Markov Chains and Monte Carlo Simulations) (30 pts)
 
