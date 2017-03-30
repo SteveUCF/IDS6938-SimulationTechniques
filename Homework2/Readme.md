@@ -69,7 +69,7 @@ http://stackoverflow.com/questions/1621831/how-can-i-convert-coordinates-on-a-sq
 
 We all love board games. A board game can be viewed mathematically as a Markov chain, where the probability of moving to the next position depends only on the position you are currently at and the chances provided by tossing a dice. For this part of the homework we will simulate the game "*Snakes and Ladders*" (This goes by other names: Chutes and Ladders, Moksha Patam but all essentially the same gameplay.)
 
-| Moksha Patam  | Snakes and Ladders |
+| Moksha Patam  | Snakes and Ladders |  
 | ------------- | ------------- |
 | ![](images/snake1.jpg?raw=true)  | ![](images/snake2.jpg?raw=true) |
 
