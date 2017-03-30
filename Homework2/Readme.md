@@ -52,6 +52,10 @@ Generate useful charts and statistics from the output to analyze how uniform the
 ![](images/1d.PNG?raw=true) 
 
 * **(e)- 4pts:** Generate random numbers in two-dimensions for a unit square. Plot the results for the different distributions. The vertical axis should vary N in increasing order. The horizontal axis should show of the random number engines. (See [Random Numbers Webcourse page](https://webcourses.ucf.edu/courses/1246518/pages/random-numbers?module_item_id=10541423) for a rough idea what you should produce.)
+
+![](images/1e_Normal.PNG?raw=true) 
+
+
 * **(f)- 4pts:** Repeat parts (d) and (e) with a unit circle.
 
 ## Part 2 - Snakes and Ladders (Discrete Event Markov Chains and Monte Carlo Simulations) (30 pts)
