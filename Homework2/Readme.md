@@ -124,11 +124,11 @@ When a passanger arrives they have to wait in a queue to present their ID and ti
   * expected response time 
 *  **(d) - 4pts:** Write code to call the functions to output and generate data from the airport senario. Plot and analyze the useful statistics/results in the program of your choice.  (Hint -  basically call  *.output();* on the MM1_Queue objects you create. Hint2 - two other use functions are *get_current_time()* and  *plot_results_output()* call intially on your intial MM1_Queue object.)  
 
-| ![](images/3d.jpg?raw=true) |
+| ![](images/3d.png?raw=true) |
 
 * **(e) - 15pts:** Download the personal edition of **[Anylogic](http://www.anylogic.com/)**, read through the [documentation](http://www.anylogic.com/learn-simulation) as needed, and set up the same type of simulation discussed above.
 
-| ![](images/3e.jpg?raw=true) |
+| ![](images/3e.png?raw=true) |
 
 
 ## Part 4 - Implementing Extra Features (10 pts)
