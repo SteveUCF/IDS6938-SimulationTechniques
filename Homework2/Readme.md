@@ -57,7 +57,12 @@ Generate useful charts and statistics from the output to analyze how uniform the
 
 
 * **(f)- 4pts:** Repeat parts (d) and (e) with a unit circle.
+
+
+![](images/1f-UnitCircle.PNG?raw=true) 
+
 ![](images/UnitCircle.PNG?raw=true) 
+
 http://stackoverflow.com/questions/1621831/how-can-i-convert-coordinates-on-a-square-to-coordinates-on-a-circle
 
 ## Part 2 - Snakes and Ladders (Discrete Event Markov Chains and Monte Carlo Simulations) (30 pts)
@@ -126,6 +131,11 @@ Implementing 2 features on the extra features list. Pick any feature on the "*ex
 
 ## Part 5 - Final Report (10 pts)
 Write up the results to the previous sections in the main *readme.md* in your forked repository. Turn in the URL for your fork in webcourses. Be visual. The report should contain the graphs and analysis requested. I have high expectations for the documentation here and you should allot the proper time to compose the writeup.
+
+For 1f, I converted the X,Y coordinates to unit circle with the following equation. I then plotted in a unit circle.
+![](images/UnitCircle.PNG?raw=true) 
+
+http://stackoverflow.com/questions/1621831/how-can-i-convert-coordinates-on-a-square-to-coordinates-on-a-circle
 
 
 ## Extra Features (Extra Credit - 25pts)
