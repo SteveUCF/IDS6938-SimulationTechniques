@@ -33,6 +33,21 @@ void SetTransitionMatrix()
 	TransitionMatrix(95, 100) = (prob * 2.0);
 
 	//row 96
+	TransitionMatrix(96, 97) = prob;
+	TransitionMatrix(96, 98) = prob;
+	TransitionMatrix(96, 99) = prob;
+	TransitionMatrix(96, 100) = (prob * 3.0);
+
+	//row 97
+	
+	TransitionMatrix(97, 98) = prob;
+	TransitionMatrix(97, 99) = prob;
+	TransitionMatrix(97, 100) = (prob * 4.0);
+
+	//row 98
+	
+	TransitionMatrix(98, 99) = prob;
+	TransitionMatrix(98, 100) = (prob * 5.0);
 
 	//row 99
 	TransitionMatrix(99, 100) = 1.0;
@@ -40,6 +55,6 @@ void SetTransitionMatrix()
 	TransitionMatrix(100, 100) = 1.0;
 
 		
-	std::cout << TransitionMatrix << std::endl;
+	//std::cout << TransitionMatrix << std::endl;
 
 }
