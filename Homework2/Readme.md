@@ -156,7 +156,7 @@ For 1f, I converted the X,Y coordinates to unit circle with the following equati
 http://stackoverflow.com/questions/1621831/how-can-i-convert-coordinates-on-a-square-to-coordinates-on-a-circle
 
 
-## Extra Features (Extra Credit - 25pts)
+## Extra Features (Extra Credit - 25pts) 
 
 
 You have to implement two features from this list for Part 4. You may choose any two features you wish from this list. (Please explicitly note them in your *Readme.md*)
