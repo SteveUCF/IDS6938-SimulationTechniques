@@ -127,6 +127,9 @@ When a passanger arrives they have to wait in a queue to present their ID and ti
 | ![](images/3d.PNG?raw=true) |
 
 * **(e) - 15pts:** Download the personal edition of **[Anylogic](http://www.anylogic.com/)**, read through the [documentation](http://www.anylogic.com/learn-simulation) as needed, and set up the same type of simulation discussed above.
+
+https://www.youtube.com/watch?v=0jqbfdBWy2o
+
 ![](images/AnyLogic-2d3d.PNG?raw=true) 
 | ![](images/3e.PNG?raw=true)  |
 
@@ -160,7 +163,12 @@ You have to implement two features from this list for Part 4. You may choose any
 
 * **(10 Points)** - Add a 2D visualization to AnyLogic for Part 3.
 
+https://www.youtube.com/watch?v=kU1BbfebhC4
+
 
 * **(10 Points)** - Add a 3D visualization to AnyLogic for Part 3.
+
+https://www.youtube.com/watch?v=TV-Edu5J4pA
+
 
 
