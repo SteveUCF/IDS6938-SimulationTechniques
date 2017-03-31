@@ -139,6 +139,8 @@ Implementing 2 features on the extra features list. Pick any feature on the "*ex
 
 1.* **(5 Points)** - Pick a research problem (from your dissertation, Energy Microgrids, Missle Defence...). Compare and contrast different software packages (AnyLogic, Simio, Simulu8, Arena etc). Convince me as your "manager/advisor" what advantages, weaknesses, and costs each program has. Come to a conclusion. Roughly sketch out how you would formulate the problem in the framework.
 
+#I will use AnyLogic to build simulate how specific population moves through time. My research is regarding the effect of changes in population and the relationship to inflation. I can use AnyLogic to simulate various population groups. AnyLogic can be used to visualize this population movement over time. I can also overlay economic inflation over the period. AnyLogic is effecient and cost effective. AnyLogic can handle social processes and this can be effective for population of agents. 
+
 ![](images/AnyLogic Research Question.PNG?raw=true) 
 
 
