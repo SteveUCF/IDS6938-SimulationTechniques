@@ -1,5 +1,5 @@
-+## Stephen Jones
-I am taking a late day and turning in Thursday, March 30.
+## Stephen Jones
+I am taking two late days and turning in Thursday, March 30.
 
 
 # Homework 2 :  Discrete-Event Simulation Assignment
