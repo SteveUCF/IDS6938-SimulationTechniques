@@ -82,9 +82,13 @@ The game is **memoryless** - your progression to the next position is independen
 <BR>![](images/null.png?raw=true)<BR>
 From state 0 it is equally probable of landing on squares 1-6. From state 1 t is equally probable of landing on squares 2-7, and so on. Create this transition matrix. The end is trickier, we will consider any roll past 100 a win case. (Opposed to rolling exactly onto square 100.) Confirm you have a well formed stochastic matrix (Write checks for confirming each row of T sums to one and all elements are non-negative). The Transition Matrix methods can be found in the TransitionMatrix.h file.
 
+I completed 1.a-- please see repository for code.
+
 * **(b) Simulate and analyze the results of Null State Game - 10pts:** What is the modal number of moves required by a single player to finish the game? We will be simulating the game two different ways. **(1) Markov Chain**: The game can be analyzed with a row vector, *v* with 101 components, representing the probabilities that the player is on each of the positions. V(0) is (1,0,0,...,0) since we know we start at square 0. v evolves by: <BR>![](images/prob.png?raw=true)<BR>
 For this part (1) use the *Markov project* in the Snake and Ladders starter code.<BR>
 **(2) Monte Carlo**: he will will use a monte carlo process to solve our Discrete Time Markov Chains. Here (2) use the DTMC project, and utilize the DTMC method similar to what we did in class. <BR><BR>Produce graphs to analyze the results and show how the game evolves over time for both methods. Plot useful statistics of the results such as percentage chance of finishing the game in n-moves, cumulative probability of finishing the game in n-moves, and other ways to convey useful information of the results.
+
+I did not complete 2.b.
 
 * **(c) Simulate and analyze the results of Snakes and Ladders -10pts:**  Construct a new transition matrix based on the table:
 
@@ -101,10 +105,13 @@ Ladders From  | Ladders To | |  Snakes From  | Snakes To
 76|91| |92|75
 84|98| |99|70
 
+I did not complete 2.c.
 
 
 Run the same simulation and analyze your results similar to part (b) for the proper game of *Snakes and Ladders* for both methods. How often are the snakes and ladders used, how do the probability of finishing change, etc? What is the maximum and expected amount of moves for the game? Use charts and graphs to illustrate these points.
 * **(d) Think - 0pts:** If these games are built entirely on chance, do they require any strategy? Is it really a *game*, would you rather play games of chance or games of strategy?
+
+Since they are built entirely by chance, they do not require any strategy. I do not think that these are not games since it just a trial of chance-- it does not require skill and i think that takes away from the fun. I might as well just flip a coin instead of playing a game of chance. I would rather play games that require strategy- this is more fun to think through ways of winning. One where it takes skill and thinking to outmaneuver an opponent.
 
 
 ## Part 3 - Discrete Event Simulation - Queue Simulation (30 pts)
@@ -114,7 +121,13 @@ This problem will look at queues and commonly used performance measures. For thi
 When a passanger arrives they have to wait in a queue to present their ID and ticket to the gate agent with all the other passengers. Once approved by the agent they will have to pass through a security check. Since this is Orlando, there are only 3 open metal/screening devices open and again passangers have to wait in a queue. After passing through security you again have to wait in a queue to board your plane.
 
 * **(a) - 4pts:** To start create the senario in the figure above in *main.cpp*. Checkin will have a *mu* of 53 and accept new arrivals, the security gates will have a *mu* of 20, and will not accept new arrivials, boarding will have a *mu* of 80. You will have to set up  the appropriate *MM1_Queue* objects to capture the functionality above.
+
+ I performed 3a-please see repository for code.
+
 * **(b) - 4pts:** You want to add a check that your process is within an error range *is_within_error_range(float)* where the error range will be 0.002. You also want to process the next event, and add an external arrival where marked.
+
+ I performed 3b-please see repository for code.
+
 * **(c) - 3pts:** in *mm1_queue.cpp* : add code to caculate the expected results for: 
   *  expected_server_utilization 
   *    expected idle prob
@@ -122,11 +135,18 @@ When a passanger arrives they have to wait in a queue to present their ID and ti
   *  expected number customers 
   * expected waiting time
   * expected response time 
+  
+  I performed 3c-please see repository for code.
+  
 *  **(d) - 4pts:** Write code to call the functions to output and generate data from the airport senario. Plot and analyze the useful statistics/results in the program of your choice.  (Hint -  basically call  *.output();* on the MM1_Queue objects you create. Hint2 - two other use functions are *get_current_time()* and  *plot_results_output()* call intially on your intial MM1_Queue object.)  
+
+ I did not complete 3d.
 
 | ![](images/3d.PNG?raw=true) |
 
 * **(e) - 15pts:** Download the personal edition of **[Anylogic](http://www.anylogic.com/)**, read through the [documentation](http://www.anylogic.com/learn-simulation) as needed, and set up the same type of simulation discussed above.
+
+ I performed 3e-please see repository for AnyLogic Model. I also posted a youtube video below.
 
 https://www.youtube.com/watch?v=0jqbfdBWy2o
 
@@ -143,19 +163,25 @@ Implementing 2 features on the extra features list. Pick any feature on the "*ex
 
 ![](images/AnyLogic Research Question.PNG?raw=true) 
 
-
-
-
-
 2. * **(5 Points)** - Implement and compare Halton, Hammersley, (Or another quasi method) Quasi sequences and add them to your analysis for appropriate subparts of Part 1.
+
+ I did not complete 4.2.
 
 ## Part 5 - Final Report (10 pts)
 Write up the results to the previous sections in the main *readme.md* in your forked repository. Turn in the URL for your fork in webcourses. Be visual. The report should contain the graphs and analysis requested. I have high expectations for the documentation here and you should allot the proper time to compose the writeup.
+
+For Section 1, I found that the random generators were effective and had good distribution of random numbers. This was especially apparent as the N was increased to 100,000. This produced almost completely solid unit squares and unit circles.
 
 For 1f, I converted the X,Y coordinates to unit circle with the following equation. I then plotted in a unit circle.
 ![](images/UnitCircle.PNG?raw=true) 
 
 http://stackoverflow.com/questions/1621831/how-can-i-convert-coordinates-on-a-square-to-coordinates-on-a-circle
+
+
+For Section 2,
+
+F
+
 
 
 ## Extra Features (Extra Credit - 25pts) 
