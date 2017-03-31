@@ -127,7 +127,7 @@ When a passanger arrives they have to wait in a queue to present their ID and ti
 | ![](images/3d.PNG?raw=true) |
 
 * **(e) - 15pts:** Download the personal edition of **[Anylogic](http://www.anylogic.com/)**, read through the [documentation](http://www.anylogic.com/learn-simulation) as needed, and set up the same type of simulation discussed above.
-
+![](images/AnyLogic-2d3d.PNG?raw=true) 
 | ![](images/3e.PNG?raw=true)  |
 
 
@@ -135,6 +135,12 @@ When a passanger arrives they have to wait in a queue to present their ID and ti
 Implementing 2 features on the extra features list. Pick any feature on the "*extra features*" list below to customize your assignment to fit your interests. Please document this in your writeup. (*Note: These should total 10pts. You could successfully implement a feature worth 10pts or greater. This also fulfills this requirement. The features are assigned points based on difficulty. The 5pt features are more straightforward.*)
 
 1.* **(5 Points)** - Pick a research problem (from your dissertation, Energy Microgrids, Missle Defence...). Compare and contrast different software packages (AnyLogic, Simio, Simulu8, Arena etc). Convince me as your "manager/advisor" what advantages, weaknesses, and costs each program has. Come to a conclusion. Roughly sketch out how you would formulate the problem in the framework.
+
+![](images/AnyLogic Research Question.PNG?raw=true) 
+
+
+
+
 
 2. * **(5 Points)** - Implement and compare Halton, Hammersley, (Or another quasi method) Quasi sequences and add them to your analysis for appropriate subparts of Part 1.
 
@@ -153,6 +159,8 @@ http://stackoverflow.com/questions/1621831/how-can-i-convert-coordinates-on-a-sq
 You have to implement two features from this list for Part 4. You may choose any two features you wish from this list. (Please explicitly note them in your *Readme.md*)
 
 * **(10 Points)** - Add a 2D visualization to AnyLogic for Part 3.
+
+
 * **(10 Points)** - Add a 3D visualization to AnyLogic for Part 3.
 
 
