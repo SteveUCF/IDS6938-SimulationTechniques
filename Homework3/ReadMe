@@ -11,6 +11,8 @@ Part 1: Behaviors
 The goal of this assignment is to enable the steering behavioral animation of agents.
 We represent an agent as a two-dimensional disk with mass (m) and moment-of-inertia (I) that is capable of generating a force F along body x-axis with a torque about the z-axis. For this assignment assume that the agent only translates in the world x-y plane and rotates about the body z-axis.
 
+# I compiled PART1 and posted the following video to demonstrate Agent Behaviors of Part1: https://www.youtube.com/watch?v=PFKxyfgeNC4
+
 (a) - 10 points : Compute derivative vector given input and state vectors. Implement the function SIMAgent::FindDeriv(). This function sets derive vector to appropriate values after being called.
 Description of agent state vector and input vector:
 state[0] is the position of the agent in local body coordinates (almost useless in this project);
