@@ -44,6 +44,10 @@ The goal of this part of the assigment is to simulate the pedestrain flow for va
 (a) - 0 points: Follow the Anylogic example for the Subway Entrance example. Create the appropriate boundaries and walls, and the display ther pedestrian density map, statistics, 2D and 3D animations.
 
 (b) - 20 points: Create a maze. Generate the pdm, stats, and animations like before. Vary parameters in your agents to give them different behaviors and show the pedistrians change how they navigate the maze.
+I created a maze and took a video of my maze: https://www.youtube.com/watch?v=L845oAtzaKw
+
+
+
 (c) - 30 points: Model and analyze a building (or floor/outdoor space/stadium) on campus. (There is help on piazza how to find rough building plans - we expect something plausible). Create a senario: evacuation, daily office routine, special event, normal egress.... etc., and model and design your own experiment to determine if the building design suits the needs of its users. Start with photographs of your site, describe your site, describe your senario and hypothesis. Then use an agent-based pedistrian simulation to visualize your experiment's results.
 https://library.ucf.edu/news/category/all-libraries/john-c-hitt-library/21st-century-library/page/2/
 Can UCF Remodeled Main Campus Library support a second Coffee shop?
@@ -70,9 +74,13 @@ I then built a circulation where 33% cycle through
 33% go back to above 
 67% leave
 When running this simulation, I found that JavaCity can support 35 patrons per hour on average. There are 17 customers that were still held in the queue.
+ I created a video of the simulation: https://www.youtube.com/watch?v=zeVivzMuyFk
  
 Simulation2 
 To test whether or not the current coffee shop can accommodate the increased patron activity, I will increase the hourly library patron activity from 370 to 740 and keep the 10.8% probability for the coffee shop. 
+ 
+ I created a video of this second simulation: https://www.youtube.com/watch?v=v5Rta0tiO_E
+ As seen in this video, JavaCity has a very difficult time accomodating the customer demand if library patrons are doubled but JavaCity maintains its 600 per day customer service.
  
 In one hour of simulation, JavaCity had 102 customers but only serviced 37. This falls well short of the needs of the customers. Further study can be investigated on whether the demand from the nonserviced customers can support additional staff at current JavaCity location, or whether or not an investment can be made to build a new coffee shop on the 4th floor. In addition, I analyzed the Menu at Javacity and built a framework which determined the average priced sold good to be $3.05 vs the real average of all menu items is $3.67. I did ask the supervisor and cash register attendant if $3.00 per customer was realistic and she agreed. This information can be plugged into a strategic financial decision making capital budgeting exercise to determine the viability of the investment given the costs, overhead and profit goals.
 I believe that by using advanced analytics and simulation, we can evaluate the strategic decision to further explore adding a second coffee shop to the UCF library. 
